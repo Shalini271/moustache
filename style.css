@@ -1,0 +1,49 @@
+canvas{
+    border-color: black;
+    border-width: 10px;
+    border-style: ridge;
+    box-shadow:5px 5px 10px blue;
+    animation-name: myAnimation1;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    margin-top: 75px;
+}
+
+body{
+    background-image: url("background.jpg");
+}
+
+.btn-info:hover{
+    background-color:brown;
+}
+
+h2{
+font-size: 30px !important;
+}
+
+@keyframes myAnimation{
+    from{
+    box-shadow: 5px 5px 10px blue;
+    }
+    to{
+       box-shadow: -5px -5px 10px blueviolet; 
+    }
+}
+
+@keyframes myAnimation1{
+    0%{
+    box-shadow: 5px 5px 10px blue;
+    }
+    25%{
+       box-shadow: -5px -5px 10px blueviolet; 
+    }
+    50%{
+        box-shadow: 5px -5px 10px violet; 
+     }
+    75%{
+        box-shadow: -5px 5px 10px pink; 
+     }
+}
+
+
+
